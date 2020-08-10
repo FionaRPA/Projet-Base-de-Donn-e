@@ -1,0 +1,364 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html
+{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url(./../image/centre.jpg);
+	background-attachment:fixed;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+body
+{
+	overflow-x: hidden;
+	font-family: monospace;
+}
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url(./../image/centre.jpg);
+	background-attachment:fixed;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	padding-top: 30px;
+}
+
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+
+.main-nav .nom
+{
+	display: inline-block;
+	text-align: center;
+	float: right;
+	color: white;
+	font-family: "Guerpa", sans-serif;
+	font-size: 18px;
+	padding-top: -10px
+
+}
+
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+
+.pascnx
+{
+	color: white;
+	float: right;
+	text-align: center;
+	margin-top: 5%;
+	margin-right: -5%;
+}
+
+
+.logo img
+{
+	width: 15%;
+	margin-top: -2%;
+	height: auto;
+	float: left;
+}
+
+.row
+{
+	max-width: 85%;
+	margin: auto;
+}
+
+.propos
+{
+	position: absolute;
+	width: 80%;
+	color: white;
+}
+
+.propos h2
+{
+	margin-top: 8%;
+	margin-left: 20%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}
+
+.propos p
+{
+	margin-top: 2%;
+	padding-left: 25%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+}
+
+.here
+{
+	position: absolute;
+	width: 80%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.here h2
+{
+	margin-top:100px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}
+
+.here p
+{
+	margin-top:40px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+}
+
+.bienvenue
+{
+	float: right;
+	color: #a52a0f;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 100px;
+	margin-right: 32%;
+}
+
+
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 20%;
+
+}
+
+.here h2
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+footer
+{
+	text-align: center;
+	display: block;
+	background-color: #3B3E3E;
+	height: 5%;
+}
+
+
+footer p
+{
+	padding-top: 1%;
+	color: white;
+	font-weight: bold;
+	top: 18px;
+}
+
+
+.login-page
+{
+	width: 20%;
+	padding: 10% 0 0;
+	margin: auto;
+	color: white;
+}
+
+.affiche
+{
+	height: 60%;
+	width: 85%;
+	padding: 10% 0 0;
+	margin: auto;
+	color: white;
+}
+
+.affiche h2
+{
+	background-color: black;
+	padding: 5px;
+	font-size: 30px;
+	color: #a52a0f;
+}
+
+.affiche h3
+{
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.affiche p
+{
+	background-color: black;
+	padding: 5px;
+	font-size: 15px;
+}
+
+
+.affiche .left
+{
+	float: left;
+	width: 50%;
+	height: 80%
+
+}
+
+.affiche .right
+{
+	float: right;
+	width: 50%;
+	height: 80%
+
+}
+
+.affiche .titr
+{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #a52a0f;
+
+}
+
+
+.form
+{
+	position: relative;
+	z-index: 1;
+	background: rgba(73, 73, 73, 0.8);
+	max-width: 360px;
+	margin: 0 auto 100px;
+	margin-top: -80px;
+	padding: 45px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+}
+
+
+.form input
+{
+	font-family: "Roboto", sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+
+.valider
+{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: black;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #3B3E3E;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.valider:hover
+{
+	background: #3B3E3E;
+	color: white;
+}
+
+
+.form .message
+{
+	margin: 15px 0 0;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+}
+
+.form .message a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.login
+{
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.boutton
+{
+	color: white;
+	text-align: center;
+	font-family: "Guerpa", sans-serif;
+	padding: 10px;
+	font-size: 12px
+	background-color: black;
+	border: none;
+	display: inline-block;
+	margin: 2px 1px;
+	cursor: pointer;
+}
+
+
+.boutton:hover
+{
+	color: black;
+	font-family: "Guerpa", sans-serif;
+	background-color: white;
+}
